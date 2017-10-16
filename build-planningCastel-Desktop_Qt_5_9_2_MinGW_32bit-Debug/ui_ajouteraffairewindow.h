@@ -15,6 +15,7 @@
 #include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QHeaderView>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QPushButton>
 
 QT_BEGIN_NAMESPACE
@@ -24,6 +25,7 @@ class Ui_ajouterAffaireWindow
 public:
     QPushButton *pushButton;
     QPushButton *pushButton_2;
+    QLabel *label;
 
     void setupUi(QDialog *ajouterAffaireWindow)
     {
@@ -36,6 +38,9 @@ public:
         pushButton_2 = new QPushButton(ajouterAffaireWindow);
         pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
         pushButton_2->setGeometry(QRect(340, 530, 75, 23));
+        label = new QLabel(ajouterAffaireWindow);
+        label->setObjectName(QStringLiteral("label"));
+        label->setGeometry(QRect(140, 190, 181, 121));
 
         retranslateUi(ajouterAffaireWindow);
 
@@ -47,6 +52,7 @@ public:
         ajouterAffaireWindow->setWindowTitle(QApplication::translate("ajouterAffaireWindow", "Dialog", Q_NULLPTR));
         pushButton->setText(QApplication::translate("ajouterAffaireWindow", "Ok", Q_NULLPTR));
         pushButton_2->setText(QApplication::translate("ajouterAffaireWindow", "Annuler", Q_NULLPTR));
+        label->setText(QApplication::translate("ajouterAffaireWindow", "Git marche !!!", Q_NULLPTR));
     } // retranslateUi
 
 };
