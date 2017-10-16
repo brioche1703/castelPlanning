@@ -3,6 +3,8 @@
 
 #include <QDialog>
 
+#include "core/affaire.h"
+
 namespace Ui {
 class ajouterAffaireWindow;
 }
@@ -16,7 +18,10 @@ public:
     ~ajouterAffaireWindow();
 
 private slots:
-    void on_pushButton_clicked();
+
+    void on_pushButton_ok_clicked();
+
+    void on_pushButton_annuler_clicked();
 
 private:
     Ui::ajouterAffaireWindow *ui;
