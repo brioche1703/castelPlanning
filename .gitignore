@@ -4,3 +4,6 @@ Makefile*
 
 # User specific files
 *.user
+
+# .exe files
+*.exe
