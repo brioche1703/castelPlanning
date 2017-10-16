@@ -25,13 +25,15 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp \
-    ajouteraffairewindow.cpp
+        gui/mainwindow.cpp \
+        gui/ajouteraffairewindow.cpp \
+    core/affaire.cpp
 
 HEADERS += \
-        mainwindow.h \
-    ajouteraffairewindow.h
+        gui/mainwindow.h \
+        gui/ajouteraffairewindow.h \
+    core/affaire.h
 
 FORMS += \
         mainwindow.ui \
-    ajouteraffairewindow.ui
+        ajouteraffairewindow.ui
