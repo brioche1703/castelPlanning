@@ -52,7 +52,7 @@ public:
         ajouterAffaireWindow->setWindowTitle(QApplication::translate("ajouterAffaireWindow", "Dialog", Q_NULLPTR));
         pushButton->setText(QApplication::translate("ajouterAffaireWindow", "Ok", Q_NULLPTR));
         pushButton_2->setText(QApplication::translate("ajouterAffaireWindow", "Annuler", Q_NULLPTR));
-        label->setText(QApplication::translate("ajouterAffaireWindow", "Git marche !!!", Q_NULLPTR));
+        label->setText(QApplication::translate("ajouterAffaireWindow", "Git marche toujours!?", Q_NULLPTR));
     } // retranslateUi
 
 };
