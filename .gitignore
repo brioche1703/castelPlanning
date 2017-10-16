@@ -1,0 +1,6 @@
+# Makefile files
+
+Makefile*
+
+# User specific files
+*.user
