@@ -39,6 +39,19 @@
     <string>Annuler</string>
    </property>
   </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>190</y>
+     <width>181</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Git marche !!!</string>
+   </property>
+  </widget>
  </widget>
  <resources/>
  <connections/>
