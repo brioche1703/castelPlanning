@@ -13,14 +13,14 @@ enum TypeAffaire
 {
     CL,
     EX,
-}
+};
 
 enum SousTraitanceAffaire
 {
     NONE,
     ST,
     MT,
-}
+};
 
 class Affaire
 {
