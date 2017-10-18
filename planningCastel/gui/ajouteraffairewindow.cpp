@@ -28,6 +28,7 @@ void ajouterAffaireWindow::on_pushButton_ok_clicked()
     Affaire *affaireEntered = new Affaire(id, nom, marquage, etat, departement,
                                            type, observations, total_poids, total_heures);
     affaireEntered->print();
+
     this->close();
 }
 
