@@ -15,8 +15,20 @@ ajouterAffaireWindow::~ajouterAffaireWindow()
 
 void ajouterAffaireWindow::on_pushButton_ok_clicked()
 {
-    Affaire *affaire1 = new Affaire(ui->lineEdit_id->text().toInt(), ui->lineEdit_nom->text(), Etat(ui->comboBox_etat->currentIndex()));
-    affaire1->print();
+    unsigned int id = ui->lineEdit_id->text().toInt();
+    QString nom = ui->lineEdit_nom->text();
+    QString marquage = ui->lineEdit_marquage->text();
+    EtatAffaire etat = EtatAffaire(ui->comboBox_etat->currentIndex());
+    unsigned int departement = ui->lineEdit_departement->text().toInt();
+    TypeAffaire type = TypeAffaire(ui->comboBox_type->currentIndex());
+    QString observations = ui->textEdit_observations->toPlainText();
+    unsigned int total_poids = ui->lineEdit_total_poids->text().toInt();
+    unsigned int total_heures = ui->lineEdit_total_heures->text().toInt();
+
+    Affaire *affaireEntered = new Affaire(id, nom, marquage, etat, departement,
+                                           type, observations, total_poids, total_heures);
+    affaireEntered->print();
+
     this->close();
 }
 
