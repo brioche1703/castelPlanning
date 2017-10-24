@@ -9,6 +9,7 @@ Makefile.Release
 
 # User specific files
 *pro.user.*
+*pro.user
 
 # .exe files
 *.exe
