@@ -19,3 +19,8 @@ Makefile.Release
 
 # .swp files
 *.swp
+
+# moc files
+moc_*.h
+moc_*.cpp
+moc_*.o
