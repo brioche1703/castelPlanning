@@ -8,10 +8,13 @@ Makefile.Release
 */Makefile.Release
 
 # User specific files
-*.user
+*pro.user.*
 
 # .exe files
 *.exe
 
 # .o files
 *.o
+
+# .swp files
+*.swp
