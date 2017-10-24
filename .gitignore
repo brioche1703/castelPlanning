@@ -1,7 +1,11 @@
 # Makefile files
 
-Makefile*
-Makefile.*
+Makefile
+Makefile.Debug
+Makefile.Release
+*/Makefile
+*/Makefile.Debug
+*/Makefile.Release
 
 # User specific files
 *.user
@@ -11,4 +15,3 @@ Makefile.*
 
 # .o files
 *.o
-
