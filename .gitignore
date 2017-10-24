@@ -1,9 +1,14 @@
 # Makefile files
 
-Makefile*
+Makefile
+Makefile.Debug
+Makefile.Release
 
 # User specific files
 *.user
 
 # .exe files
 *.exe
+
+# .o files
+*.o
