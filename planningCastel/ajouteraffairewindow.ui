@@ -43,6 +43,32 @@
      <item row="1" column="1">
       <widget class="QLineEdit" name="QLineEdit_nom"/>
      </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="etatLabel">
+       <property name="text">
+        <string>État :</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QComboBox" name="etatComboBox">
+       <item>
+        <property name="text">
+         <string>Non commencée</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>En cours</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Terminée</string>
+        </property>
+       </item>
+      </widget>
+     </item>
     </layout>
    </item>
    <item>
