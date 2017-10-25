@@ -7,6 +7,9 @@ Makefile.Release
 */Makefile.Debug
 */Makefile.Release
 
+# build folder
+build-planningCastel*/*
+
 # User specific files
 *pro.user.*
 *pro.user
